@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "data-platform"
+version = "2023.8"
+description = ""
+authors = ["Todor Lubenov <tlubenov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_platform"}]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+fastapi = "^0.101.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
